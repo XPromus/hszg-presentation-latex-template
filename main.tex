@@ -1,0 +1,24 @@
+\documentclass{beamer}
+\usetheme{Dresden}
+\input{template/packages}
+%\input{template/titlepage}
+
+\title{Titel der Präsentation}
+\subtitle{Untertitel}
+\author{Name des Präsentators}
+\institute{
+    Hochschule Zittau/Görlitz\\
+    Fakultät der Arbeit
+}
+\date{\today}
+\logo{\includegraphics[height=1cm]{images/hszg_signet.png}}
+
+\begin{document}
+    \maketitle
+    \begin{frame}
+        \frametitle{Inhaltsverzeichnis}
+        \tableofcontents
+    \end{frame}
+    \subfile{content/content}
+    \include{template/lastPages}
+\end{document}
